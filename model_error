@@ -1,0 +1,24 @@
+2016-01-15 20:24:35.254264
+Traceback (most recent call last):
+  File "/home/obsidian/program/ljx/security/cps/model/model/epoll_s.py", line 104, in main
+    insert_bus_data(busdata)
+  File "/home/obsidian/program/ljx/security/cps/model/model/connector.py", line 6, in insert_bus_data
+    db.model.insert_one(data)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/collection.py", line 622, in insert_one
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py", line 712, in _get_socket
+    server = self._get_topology().select_server(selector)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 141, in select_server
+    address))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 117, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+============================
+2016-01-15 20:32:03.520094
+Traceback (most recent call last):
+  File "/home/obsidian/program/ljx/security/cps/model/model/epoll_s.py", line 101, in main
+    busdata=dict(zip(key,a.tolist()[0]))
+IndexError: list index out of range
+============================
