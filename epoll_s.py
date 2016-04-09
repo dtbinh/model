@@ -58,7 +58,7 @@ class worker1(threading.Thread):
                 for i in sock:
                     i.send("ASK")
                     print "ASK"
-                time.sleep(4)
+                time.sleep(2.5)
             except Exception:
                 print Exception
                 os._exit(1)
