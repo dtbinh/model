@@ -48,7 +48,7 @@ class worker1(threading.Thread):
             try:
                 recvnum=0
                 for i,k in enumerate(sock):
-                    a=np.array([(i+1,power[i][0]+random.random()*5.0,power[i][1]+3.0*random.random())],dtype=pdtype)
+                    a=np.array([(i+1,power[i][0]+random.random()*15.0,power[i][1]+15.0*random.random())],dtype=pdtype)
                     k.send(a.tobytes())
                 time.sleep(3.5)
             except Exception:

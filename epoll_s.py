@@ -101,7 +101,8 @@ def main():
                     busdata=dict(zip(key,a.tolist()[0]))
                     branchdata=a['branchdata'].tolist()
                     busdata['branchdata']=branchdata[0][0:a['branchnum']]
-                    insert_bus_data(busdata)
+                    #insert_bus_data(busdata)
+                    update_bus_data(busdata['bus_id'],busdata)
                     updater.update_matrix(data)
                     recvnum=recvnum+1
                 except Exception:

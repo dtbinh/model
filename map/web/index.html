@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>smart grid</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+<!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/buttons.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+<link rel="stylesheet" href="css/leaflet-sidebar.min.css" />
+<link rel="stylesheet" href="css/style.css">
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }  
+</style>
+</head>
+<body>
+<div id='map' class="sidebar-map"></div>
+
+<!-- sideBar -->
+<div id="sidebar" class="sidebar collapsed">
+        <!-- Nav tabs -->
+        <ul class="sidebar-tabs">
+            <li><a href="#home"><i class="fa fa-bars"></i></a></li>
+            <li><a href="#profile"><i class="fa fa-certificate"></i></a></li>
+            <li><a href="#messages"><i class="fa fa-exchange"></i></a></li> 
+            <li><a href="#settings" role="tab"><i class="fa fa-dashboard"></i></a></li>           
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="sidebar-content active">
+            <div class="sidebar-pane btn-group" id="home">
+                <h1>Information</h1>
+				<p>SCADA(supervisory control and data acquisition)</p>
+				<p>A type of industrial control system (ICS). Being large scale processes that can include multiple sites, and large distances. Industrial, infrastructure, and facility-based processes.</p>
+				<p>CPS(Cyber-Physical Systems)</p>
+				<p>Discrete,continous devices Embedded computers , networks monitor and control the physical processes, with feedback loops where physical processes affect computations and vice versa.</p>
+            </div>
+            <div class="sidebar-pane" id="profile">
+                <h1>Buses</h1>
+                <ul class="items-list"></ul>                   
+            </div>
+            <div class="sidebar-pane" id="messages">
+                <h1>Branches</h1>
+                <ul class="items-list"></ul>                
+            </div>  
+            <div class="sidebar-pane" id="settings">
+                <h1>Generator Data</h1>
+                <ul class="items-list">
+                    <li class="item-title"><span>Pg</span><span>Pgmax</span><span>IsOverLoad</span></li>
+                </ul>
+                <h1>Load Data</h1>
+                <ul class="items-list">
+                    <li class="item-title"><span>Pd</span><span>RealGet</span><span>IsDeficit</span></li>
+                </ul>
+            </div>          
+        </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<!-- <script src="js/branches.js"></script>
+<script src="js/buses.js"></script>
+<script src="js/data.js"></script> -->
+
+<script src="js/Chart.min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js'></script>
+<script src="js/leaflet-sidebar.min.js"></script>
+<script type="text/javascript">
+var sidebar = L.control.sidebar('sidebar').addTo(map);
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

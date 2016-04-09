@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/CPS_For_Contest/118_bus/.idea/118_bus.iml" filepath="$USER_HOME$/CPS_For_Contest/118_bus/.idea/118_bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../2015.5.6/.idea/2015.5.6.iml" filepath="$PROJECT_DIR$/../../2015.5.6/.idea/2015.5.6.iml" />
+      <module fileurl="file://$USER_HOME$/CPS_For_Contest/CPS/.idea/CPS.iml" filepath="$USER_HOME$/CPS_For_Contest/CPS/.idea/CPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../cps/.idea/cps.iml" filepath="$PROJECT_DIR$/../../../cps/.idea/cps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/map.iml" filepath="$PROJECT_DIR$/.idea/map.iml" />
+    </modules>
+  </component>
+</project>

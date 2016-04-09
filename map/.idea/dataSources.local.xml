@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="55ff25b4-40df-4ea7-828d-f0aa4539fe6c" />
+    <data-source name="MySQL - @localhost" uuid="9b899643-aefc-4bfa-a7a1-cbdb45e2ff5f">
+      <user-name>root</user-name>
+      <user-password>df93df98df92df9bdf9adf9ddfc6dfc3dfc0dfc3dfcbdfd2dfdfdfcbdfc4</user-password>
+    </data-source>
+  </component>
+</project>

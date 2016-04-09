@@ -1,0 +1,124 @@
+body{
+	font:14px/1.231 "Lato", sans-serif;
+}
+.leaflet-popup-content-wrapper{
+	background-color: #3d566e;
+	color:#fff;
+}
+.leaflet-popup-tip{
+	border-top-color: #3d566e;
+}
+.leaflet-popup-content{
+	padding:5px 10px 15px;
+}
+.title{
+	font-size:18px;
+	font-weight: bold;
+}
+.row{
+	margin-bottom:12px;
+}
+.btn-row{
+	margin-bottom:12px;
+}
+.button{
+	height:30px;
+	line-height: 30px;
+	padding:0 12px;
+}
+
+/* sidebar绝对定位清零 */
+.sidebar{
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+/* 隐藏缩放按钮 */
+#map div.leaflet-control-container{
+	display: none;
+}
+/* 侧边栏颜色 */
+.sidebar{
+	width: 290px;
+}
+.sidebar-tabs{
+
+	background-color: #303030;
+}
+.sidebar-tabs li:hover{
+	background-color: #626262;
+
+}
+.sidebar-tabs li.active{
+	background-color: #3ab3d1;
+
+}
+.sidebar-tabs li a{
+	color: #fff;
+}
+.sidebar-pane{
+	padding-left: 0;
+	width: 250px;
+	color:#cfcfcf;
+	font-family: "微软雅黑";
+}
+#home{
+	padding-left: 12px;
+}
+.sidebar-content.active{	
+	background-color: #404040;}
+
+h1{
+	margin: 0;
+	padding-left: 20px;
+	height: 50px;
+	font-size: 20px;
+	font-family: "SimHei";
+	color: #f5f5f5;
+	line-height: 50px;
+}
+li{list-style: none;}
+.items-list{margin: 0;
+	padding: 0;
+}
+
+.items-list li{
+	height:30px;
+	width:250px;
+	border-bottom: 2px solid #303030; 
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #cfcfcf;	
+	line-height: 30px;
+	cursor: pointer;	
+}
+.items-list li:hover{
+	background-color: #303030;
+
+}
+.items-list span{
+	display: inline-block;
+	width: 70px;
+	padding-left: 30px;
+}
+.items-list .item-title{	
+	color: #e5e5e5;
+	font-weight: bold;
+	cursor: text;
+}
+.items-list .item-title:hover{
+	background-color:  #404040;
+}
+
+.items-list .stop{		
+	color: #f49c14;
+}
+.items-list .attacked{	
+	background-color: #E74C3C;
+	color: #fff;
+	font-weight: bold;
+}
+.items-list .attacked:hover{
+	background-color:  #E74C3C;
+}

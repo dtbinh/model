@@ -1,0 +1,10 @@
+恶意操作纪录
+bus_id  operation()  time(2014-05-12 12:2)
+
+数据记录(bus_id)
+bus_id type pg qg(pd qd) vm va
+
+数据包
+src_ip src_port time 内容
+
+4个
